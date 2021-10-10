@@ -1,0 +1,54 @@
+[
+    {
+        "city": "İstanbul",
+        "district": "Kadıköy",
+        "street": "Merkez",
+        "title": "Vartaş Sitesinde Manzaralı, Ankastre, Metrobüs-Metro Yanı",
+        "price": 5500,
+        "m2":500,
+        "Oda Sayısı": "2+1",
+        "description": "Boğaza sıfır lüks. Metrobüse yakın. 5 odalı 2 banyolu bir ev Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quidem illum! Quibusdam exercitationem quisquam omnis, earum ipsum possimus. Voluptatem quo culpa maiores eum? Voluptates iure maxime explicabo, nihil saepe sequi corrupti deleniti, iste aliquam rem cum quibusdam beatae error assumenda quo, fugiat tenetur? Autem earum, culpa quia aspernatur fugiat ex.",
+        "image": "https://www.tatilvillam.com/property-images/thumbnail_lg/162138/villa-soho-af35bc09cf.jpg",
+        "date":"10 Ekim 2021",
+        "suitable":true
+    },
+    {
+        "city": "İstanbul",
+        "district": "Maltepe",
+        "street": "Merkez",
+        "title": "Bilge Sitesinde Önü Kapalı, Ankastre, Dağa Yakın, Orman Yanı",
+        "price": 2500,
+        "m2":300,
+        "Oda Sayısı": "4+1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quidem illum! Quibusdam exercitationem quisquam omnis, earum ipsum possimus. Voluptatem quo culpa maiores eum? Voluptates iure maxime explicabo, nihil saepe sequi corrupti deleniti, iste aliquam rem cum quibusdam beatae error assumenda quo, fugiat tenetur? Autem earum, culpa quia aspernatur fugiat ex.",
+        "image": "https://www.tatilvillam.com/property-images/thumbnail_lg/162138/villa-soho-af35bc09cf.jpg",
+        "date":"12 Ekim 2021",
+        "suitable":true
+    },
+    {
+        "city": "Ankara",
+        "district": "Çinçin",
+        "street": "Merkez",
+        "title": "Bağlar Sitesinde Kapalı, Karakolaya Yakın, Dağa Yakın, Orman Yanı",
+        "price": 1500,
+        "m2":100,
+        "Oda Sayısı": "1+1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quidem illum! Quibusdam exercitationem quisquam omnis, earum ipsum possimus. Voluptatem quo culpa maiores eum? Voluptates iure maxime explicabo, nihil saepe sequi corrupti deleniti, iste aliquam rem cum quibusdam beatae error assumenda quo, fugiat tenetur? Autem earum, culpa quia aspernatur fugiat ex.",
+        "image": "https://www.tatilvillam.com/property-images/thumbnail_lg/162138/villa-soho-af35bc09cf.jpg",
+        "date":"12 Eylül 2021",
+        "suitable":true
+    },
+    {
+        "city": "İzmir",
+        "district": "Göztepe",
+        "street": "Merkez",
+        "title": "Cadde de yeni 2+1 Asansörlü",
+        "price": 1750,
+        "m2":90,
+        "Oda Sayısı": "1+1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quidem illum! Quibusdam exercitationem quisquam omnis, earum ipsum possimus. Voluptatem quo culpa maiores eum? Voluptates iure maxime explicabo, nihil saepe sequi corrupti deleniti, iste aliquam rem cum quibusdam beatae error assumenda quo, fugiat tenetur? Autem earum, culpa quia aspernatur fugiat ex.",
+        "image": "https://www.tatilvillam.com/property-images/thumbnail_lg/162138/villa-soho-af35bc09cf.jpg",
+        "date":"11 Eylül 2021",
+        "suitable":true
+    }
+]
