@@ -1,9 +1,10 @@
-import './App.css';
-import { Navbar } from './components/Navbar';
 import React, {useState,  useEffect } from 'react';
+import './App.css';
+import { HomeList } from './components/HomeList';
+import { Navbar } from './components/Navbar';
 
 
-function App() {
+let App = () => {
 
 const [relatedHome, setrelatedHome] = useState(undefined);
 
@@ -26,6 +27,10 @@ useEffect(() => {
       <header className="App-header">
         <Navbar/>
       </header>
+      <div className="container">
+        <HomeList relatedHome={relatedHome}/> {/* Json veri Props aracılığı ile Homelist Componentine gönderildi.*/}
+      </div>
+      
     </div>
   );
 }
