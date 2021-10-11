@@ -2,7 +2,16 @@ import React from "react";
 import Logo from "../images/bilgeden_Logo.png";
 import "./Navbar.css";
 
-export const Navbar = () => {
+export const Navbar = ({allHomes}) => {
+  
+  let allHomeCity = [];
+
+  if(allHomes){
+    allHomeCity = Array.from(new Set(allHomes.map(t=>t.city)));
+  }
+  
+  
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
@@ -25,26 +34,12 @@ export const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="/"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Şehir Seçiniz
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="/">
-                    İstanbul
-                  </a>
-                </li>
-                
-              </ul>
-            </li>
+            <select className="form-select" aria-label="Default select example">
+              <option defaultValue>Şehir Seçiniz</option>
+                {allHomeCity.map((city,index)=>
+                  <option key={index}>{city}</option>
+                )}
+            </select>
           </ul>
         </div>
       </div>
