@@ -28,15 +28,15 @@ export const HomeList = ({allHomes}) => {
                 <tbody>
                     
                 {HomeArray.map((home)=>
-                    <tr className='align-middle'> 
+                    <tr className='align-middle' key={home.id}> 
                         <th scope="row">
-                            <img src={home.image} width={120} alt="ilan_foto"></img>
+                            <img src={home.image} width={120} alt="ilan_foto"/>
                         </th>
                         <td className='tdtitle'>{home.title}</td>
                         <td>{home.m2}</td>
                         <td>{home.oda_sayisi}</td>
                         <td>{home.date}</td>
-                        <td>{home.price} TL</td>
+                        <td className='tdprice'>{home.price} TL</td>
                         <td>{home.city}</td>
                     </tr>
                 )}

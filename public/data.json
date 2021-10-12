@@ -1,11 +1,12 @@
 [
     {
+        "id":1,
         "city": "İstanbul",
         "district": "Kadıköy",
         "street": "Merkez",
         "title": "Vartaş Sitesinde Manzaralı, Ankastre, Metrobüs-Metro Yanı",
         "price": 5500,
-        "m2":500,
+        "m2":200,
         "oda_sayisi": "2+1",
         "description": "Boğaza sıfır lüks. Metrobüse yakın. 5 odalı 2 banyolu bir ev Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quidem illum! Quibusdam exercitationem quisquam omnis, earum ipsum possimus. Voluptatem quo culpa maiores eum? Voluptates iure maxime explicabo, nihil saepe sequi corrupti deleniti, iste aliquam rem cum quibusdam beatae error assumenda quo, fugiat tenetur? Autem earum, culpa quia aspernatur fugiat ex.",
         "image": "https://i0.shbdn.com/photos/30/45/99/lthmb_9543045996nv.jpg",
@@ -13,6 +14,7 @@
         "suitable":true
     },
     {
+        "id":2,
         "city": "İstanbul",
         "district": "Maltepe",
         "street": "Merkez",
@@ -26,6 +28,7 @@
         "suitable":true
     },
     {
+        "id":3,
         "city": "Ankara",
         "district": "Çinçin",
         "street": "Merkez",
@@ -39,6 +42,7 @@
         "suitable":true
     },
     {
+        "id":4,
         "city": "İzmir",
         "district": "Göztepe",
         "street": "Merkez",

@@ -9,6 +9,10 @@ export const Navbar = ({allHomes}) => {
   if(allHomes){
     allHomeCity = Array.from(new Set(allHomes.map(t=>t.city)));
   }
+
+  let cityChange = () => {
+    
+  }
   
   
 
@@ -34,7 +38,7 @@ export const Navbar = ({allHomes}) => {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-            <select className="form-select" aria-label="Default select example">
+            <select className="form-select" aria-label="Default select example" onChange={cityChange}>
               <option defaultValue>Şehir Seçiniz</option>
                 {allHomeCity.map((city,index)=>
                   <option key={index}>{city}</option>
