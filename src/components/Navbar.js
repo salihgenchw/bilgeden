@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../images/bilgeden_Logo.png";
 import "./Navbar.css";
+import { useHistory } from "react-router";
 
 export const Navbar = ({allHomes}) => {
   
@@ -10,8 +11,9 @@ export const Navbar = ({allHomes}) => {
     allHomeCity = Array.from(new Set(allHomes.map(t=>t.city)));
   }
 
-  let cityChange = () => {
-    
+  let historyApi = useHistory();
+  let cityChange = (e) => {
+    historyApi.push(`/homes/${e.target.value}`)
   }
   
   

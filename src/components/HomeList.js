@@ -1,7 +1,9 @@
 import React from 'react'
+
 import './HomeList.css'
 
 export const HomeList = ({allHomes}) => {
+
 
     let HomeArray = [];
 

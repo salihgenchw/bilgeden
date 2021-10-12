@@ -4,6 +4,8 @@ import './App.css';
 import { NotFoundPage } from './components/404/NotFoundPage';
 import { HomeList } from './components/HomeList';
 import { Navbar } from './components/Navbar';
+import { CityHouses } from './components/CityHomes/CityHouses';
+
 
 
 let App = () => {
@@ -34,6 +36,10 @@ let App = () => {
           <Switch>
             <Route path='/' exact>
               <HomeList allHomes={allHomes} /> {/* Json veri Props aracılığı ile Homelist Componentine gönderildi.*/}
+            </Route>
+
+            <Route path='/homes/:city'>
+              <CityHouses allHomes={allHomes} />
             </Route>
 
             <Route>
