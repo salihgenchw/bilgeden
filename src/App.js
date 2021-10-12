@@ -10,11 +10,11 @@ import { CityHouses } from './components/CityHomes/CityHouses';
 
 let App = () => {
 
-  const [allHomes, setallHomes] = useState(undefined);
+  const [allHomes, setallHomes] = useState([]);
 
   useEffect(() => {
     async function loadData() {
-      let jresponse = await fetch("./data.json");
+      let jresponse = await fetch("/data.json");
       let data = await jresponse.json();
 
       setallHomes(data);
