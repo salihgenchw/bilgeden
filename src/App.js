@@ -20,20 +20,13 @@ useEffect(() => {
 
 }, [])
 
-if(allHomes){
-  let randomHomeIndex=Math.floor(Math.random()*allHomes.length);
-  var relatedHome = allHomes[randomHomeIndex];
-}
-
-
-
   return (
     <div className="App">
       <header className="App-header">
         <Navbar allHomes={allHomes}/>  {/* Citylist Dropdown'ı Navbarın içerisinde olduğu için City bilgileri propsla gönderildi.*/}
       </header>
       <div className="container">
-        <HomeList relatedHome={relatedHome}/> {/* Json veri Props aracılığı ile Homelist Componentine gönderildi.*/}
+        <HomeList allHomes={allHomes}/> {/* Json veri Props aracılığı ile Homelist Componentine gönderildi.*/}
       </div>
       
     </div>
