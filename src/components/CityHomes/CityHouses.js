@@ -25,9 +25,10 @@ export const CityHouses = ({ allHomes }) => {
                 <tbody>
 
                     {filteredHouses.map((home) =>
+                        
                         <tr className='align-middle' key={home.id}>
-                            <th scope="row">
-                                <img src={home.image} width={120} alt="ilan_foto" />
+                            <th scope="row">   
+                                <img src={home.image} width={120} alt="ilan_foto" /> 
                             </th>
                             <td className='tdtitle'>{home.title}</td>
                             <td>{home.m2}</td>
@@ -36,6 +37,7 @@ export const CityHouses = ({ allHomes }) => {
                             <td className='tdprice'>{home.price} TL</td>
                             <td>{home.city}</td>
                         </tr>
+                        
                     )}
                 </tbody>
             </table>

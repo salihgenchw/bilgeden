@@ -15,7 +15,7 @@ export const HomeList = ({allHomes}) => {
 
     return (
         <div>
-            <table className="table table-hover mt-2">
+            <table className="table table-hover table-responsive-sm mt-2">
                 <thead className='bg-secon border-0'>
                     <tr>
                         <th scope="col"></th>
